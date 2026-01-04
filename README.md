@@ -15,7 +15,6 @@ Tiny shell có ? lệnh cơ bản
 
 ## I. Các lệnh cơ bản
 
-1. 
 
 ## II. Các lệnh liên quan đến folder
 
