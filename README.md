@@ -1,14 +1,15 @@
 # shell
 ---
 ### Compile:
-\`\`\`
-????
+
+\`\`\`bash
+gcc -o tinyshell main.c path.c process.c shell.c
 \`\`\`
 
 ### Run:
 
-\`\`\`
-???
+\`\`\`bash
+.\tinyshell.exe
 \`\`\`
 
 Tiny shell có ? lệnh cơ bản
