@@ -3,13 +3,13 @@
 ### Compile:
 
 ```bash
-gcc -o tinyshell main.c path.c process.c shell.c
+make 
 ```
 
 ### Run:
 
 ```bash
-.\tinyshell.exe
+.\test
 ```
 
 Tiny shell có ? lệnh cơ bản
