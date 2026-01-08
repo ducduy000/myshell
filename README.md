@@ -56,27 +56,42 @@ make
 ```bash
 cd dirpath 
 ```
-3. echo
+2. echo
 ```bash
 echo content 
 ```
-5. export
+3. export
 ```bash
 export variable valid 
 ```
-7. unset variable
+4. unset variable
 ```bash
 unset variable 
 ```
-9. run background
+5. run background
 ```bash
 sleep time & 
 ```
-11. cat
+6. cat
 ```bash
 cat <file name> 
 ```
-
+7. ls
+```bash
+ls 
+```
+8.jobs
+```bash
+jobs 
+```
+9. pwd
+```bash
+pwd 
+```
+10. time
+```bash
+time 
+```
 ## IV. Test
 1. echo Hello world > out.txt: ghi "Hello world" vào file out.txt
 2. echo World >> out.txt: ghi "World" vào cuối file out.txt
