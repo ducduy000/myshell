@@ -33,8 +33,7 @@ make
 
 
 ## I. Các lệnh nội trú
-#1. pwd: Folder đang ở hiện tại
-
+1. pwd: Folder đang ở hiện tại
 3. cd: Chuyển sang folder khác
 4. echo: dùng để in (hiển thị) một chuỗi ký tự hoặc giá trị ra màn hình
 5. export: dùng để đưa biến shell thành biến môi trường
@@ -53,12 +52,15 @@ make
 7. wc: dùng để đếm số dòng, số từ và số ký tự (byte) của file hoặc dữ liệu đầu vào
 
 ## III. Cách dùng
-1. cd "dirpath"
-2. echo "content"
-3. export variable=valid
-4. unset variable
-5. run background: sheep time &
-6. cat "file name"
+1. cd
+```bash
+cd dirpath 
+```
+3. echo "content"
+4. export variable=valid
+5. unset variable
+6. run background: sheep time &
+7. cat "file name"
 
 ## IV. Test
 1. echo Hello world > out.txt: ghi "Hello world" vào file out.txt
