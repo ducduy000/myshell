@@ -110,7 +110,7 @@ ls *.txt | wc -l: Đếm số lượng file có đuôi .txt trong thư mục hi�
 ## IV. Redirection
 Redirection (chuyển hướng) trong shell là cơ chế điều hướng luồng vào/ra của chương trình, thay vì dùng bàn phím và màn hình mặc định.
 
-1.Chuyển hướng output >
+1. Chuyển hướng output >
 ```bash
 ls > out.txt: chuyển (redirect) toàn bộ kết quả của lệnh ls vào file out.txt
 ```
