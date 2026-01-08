@@ -56,11 +56,26 @@ make
 ```bash
 cd dirpath 
 ```
-3. echo "content"
-4. export variable=valid
-5. unset variable
-6. run background: sheep time &
-7. cat "file name"
+3. echo
+```bash
+echo content 
+```
+5. export
+```bash
+export variable valid 
+```
+7. unset variable
+```bash
+unset variable 
+```
+9. run background
+```bash
+sleep time & 
+```
+11. cat
+```bash
+cat <file name> 
+```
 
 ## IV. Test
 1. echo Hello world > out.txt: ghi "Hello world" vào file out.txt
