@@ -95,6 +95,7 @@ time
 
 ## IV. Pipe
 Pipe là cơ chế nối đầu ra của lệnh này vào đầu vào của lệnh khác
+
 ** Cách dùng **
 
 ## IV. Test
