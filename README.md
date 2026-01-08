@@ -40,3 +40,22 @@ make
 4. unset variable
 5. run background: sheep time &
 6. cat "file name"
+
+## IV. Test
+1. echo Hello world > out.txt: ghi "Hello world" vào file out.txt
+2. echo World >> out.txt: ghi "World" vào cuối file out.txt
+3. ls > file.txt: chuyển (redirect) toàn bộ kết quả của lệnh ls vào file file.txt
+4. ls *.txt: Liệt kê tất cả các file có phần mở rộng .txt trong thư mục hiện tại.
+5. ls *.txt > list.txt: Liệt kê tất cả các file có đuôi .txt trong thư mục hiện tại và ghi danh sách đó vào file list.txt (ghi đè).
+6. ls | wc -l: Đếm số dòng trong output của ls → thường được hiểu là đếm số file/thư mục trong thư mục hiện tại.
+7. cat out.txt | wc -l: Đếm số dòng có trong file out.txt.
+8. echo $HOME:In ra đường dẫn thư mục home của người dùng hiện tại.
+9. echo ' * ? `pwd` ': In ra nguyên văn chuỗi * ? \pwd` **, **KHÔNG có globbing (*, ?) và KHÔNG có command substitution (pwd`).
+10. echo "thu muc hien tai la `pwd`": In ra chuỗi kèm theo đường dẫn thư mục hiện tại.
+11. echo file hien tai la `ls | wc -l `: In ra câu kèm theo số lượng file/thư mục trong thư mục hiện tại.
+12. ls *: Liệt kê tất cả các file và thư mục trong thư mục hiện tại (trừ file ẩn).
+13. ls *.txt: Liệt kê tất cả các file có phần mở rộng .txt trong thư mục hiện tại.
+14. ls main?.txt: Liệt kê các file có tên dạng mainX.txt, trong đó X là đúng 1 ký tự bất kỳ.
+15. ls *.txt > list.txt: Liệt kê tất cả các file có đuôi .txt trong thư mục hiện tại và ghi danh sách đó vào file list.txt (ghi đè nội dung cũ nếu có).
+16. ls *.txt | wc -l: Đếm số lượng file có đuôi .txt trong thư mục hiện tại.
+17. exit: thoát chương trình.
