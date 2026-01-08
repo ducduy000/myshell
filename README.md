@@ -39,4 +39,4 @@ make
 3. export variable=valid
 4. unset variable
 5. run background: sheep time &
-6. cat <file name>
+6. cat <file>
