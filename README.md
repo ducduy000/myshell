@@ -33,4 +33,10 @@ make
 6. cat: dùng để hiển thị nội dung file ra màn hình, hoặc nối nhiều file lại với nhau
 7. wc: dùng để đếm số dòng, số từ và số ký tự (byte) của file hoặc dữ liệu đầu vào
 
-
+## III. Cách dùng
+1. cd <dirpath>
+2. echo <content>
+3. export variable=valid
+4. unset variable
+5. run background: sheep time &
+6. cat <file name>
