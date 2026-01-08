@@ -1,11 +1,17 @@
 # Tên đề tài: Xây dựng ứng dụng shell (tương tự bash)
-Mục tiêu
+Mục tiêu:
 Xây dựng một chương trình shell đơn giản bằng ngôn ngữ C
+
 Cho phép người dùng nhập lệnh và shell sẽ:
+
 -Thực thi lệnh nội trú
+
 -Thực thi lệnh ngoại trú
+
 -Hỗ trợ pipe, redirection
+
 -Chạy lệnh nền bằng &
+
 -Xử lý ngoặc ‘..’, “..” , `...` và wildcards (?*)
 
 
