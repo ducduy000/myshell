@@ -34,9 +34,9 @@ make
 7. wc: dùng để đếm số dòng, số từ và số ký tự (byte) của file hoặc dữ liệu đầu vào
 
 ## III. Cách dùng
-1. cd <dirpath>
-2. echo <content>
+1. cd "dirpath"
+2. echo "content"
 3. export variable=valid
 4. unset variable
 5. run background: sheep time &
-6. cat <file>
+6. cat "file name"
