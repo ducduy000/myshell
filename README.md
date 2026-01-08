@@ -97,7 +97,11 @@ time
 Pipe là cơ chế nối đầu ra của lệnh này vào đầu vào của lệnh khác
 
 
-** Cách dùng **
+ Cách dùng 
+
+ ```bash
+ls | wc -l :  Đếm số dòng trong output của ls → thường được hiểu là đếm số file/thư mục trong thư mục hiện tại.
+```
 
 ## IV. Test
 1. echo Hello world > out.txt: ghi "Hello world" vào file out.txt
