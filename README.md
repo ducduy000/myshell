@@ -80,7 +80,7 @@ cat <file name>
 ```bash
 ls 
 ```
-8.jobs
+8. jobs
 ```bash
 jobs 
 ```
