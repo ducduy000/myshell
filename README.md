@@ -101,6 +101,10 @@ Pipe là cơ chế nối đầu ra của lệnh này vào đầu vào của lệ
 
  ```bash
 ls | wc -l :  Đếm số dòng trong output của ls → thường được hiểu là đếm số file/thư mục trong thư mục hiện tại.
+
+ls *.txt > list.txt: Liệt kê tất cả các file có đuôi .txt trong thư mục hiện tại và ghi danh sách đó vào file list.txt (ghi đè nội dung cũ nếu có).
+
+ls *.txt | wc -l: Đếm số lượng file có đuôi .txt trong thư mục hiện tại.
 ```
 
 ## IV. Test
