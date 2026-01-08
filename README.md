@@ -92,6 +92,11 @@ pwd
 ```bash
 time 
 ```
+
+## IV. Pipe
+Pipe là cơ chế nối đầu ra của lệnh này vào đầu vào của lệnh khác
+** Cách dùng **
+
 ## IV. Test
 1. echo Hello world > out.txt: ghi "Hello world" vào file out.txt
 2. echo World >> out.txt: ghi "World" vào cuối file out.txt
