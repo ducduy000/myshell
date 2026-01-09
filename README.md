@@ -29,6 +29,12 @@ make jhhkfhkdjfds
 ```bash
 .\test
 ```
+### Phân công nhiệm vụ: 
+1. Nguyễn Huy Hoàng: cho phép cài đặt lệnh ngoại trú và xử lý wildcards (?*) 
+2. Nguyễn Minh Đức: Xử lý pipe và redirection
+3. Lương Trọng Hưởng: Cho phép chạy lệnh nền bằng &
+4. Nguyễn Quang Tháng: Xử lý các dấu ngoặc
+5. Trần Phú Ninh: Cho phép cài đặt và thực thi một số lệnh nội trú
 
 
 
@@ -107,7 +113,7 @@ ls *.txt > list.txt: Liệt kê tất cả các file có đuôi .txt trong thư 
 ls *.txt | wc -l: Đếm số lượng file có đuôi .txt trong thư mục hiện tại.
 ```
 
-## IV. Redirection
+## V. Redirection
 Redirection (chuyển hướng) trong shell là cơ chế điều hướng luồng vào/ra của chương trình, thay vì dùng bàn phím và màn hình mặc định.
 
 1. Chuyển hướng output >
@@ -142,11 +148,12 @@ echo `pwd`
 Dùng để so khớp tên file/thư mục tự động.
 Dấu sao (*): Khớp với một chuỗi ký tự bất kỳ (độ dài >= 0).
 ```Bash
-ls *.c
+ls *.c Liệt kê tất cả file có đuôi .c
 ```
 Dấu hỏi chấm (?): Khớp với đúng một ký tự bất kỳ.
 ```Bash
-ls test?.txt
+ls test?.txt 
 ```
+
 
 
