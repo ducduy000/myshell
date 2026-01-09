@@ -121,6 +121,34 @@ ls > out.txt: chuyển (redirect) toàn bộ kết quả của lệnh ls vào fi
 ls >> out.txt: Ghi toàn bộ kết quả của lệnh ls vào cuối file
  
 ```
+VI. Xử lý Dấu ngoặc và Wildcards
+1. Dấu ngoặc đơn ('...')
+Dùng để bảo toàn nguyên vẹn chuỗi ký tự (Literal String). Shell sẽ không xử lý biến hay ký tự đặc biệt bên trong.
 
+Ví dụ:
 
+Bash
 
+echo '$USER'
+# Output: $USER (không in ra tên người dùng)
+2. Dấu ngoặc kép ("...")
+Dùng để nhóm chuỗi ký tự. Shell cho phép thay thế biến ($) nhưng bỏ qua các ký tự đại diện (*, ?).
+```Bash
+export NAME=Hung
+echo "Xin chao $NAME"
+```
+3. Dấu Backtick (`...`)
+Dùng để thực thi lệnh bên trong và lấy kết quả trả về.
+```Bash
+echo "Bay gio la: `date`"
+```
+4. Wildcards (Ký tự đại diện)
+Dùng để so khớp tên file/thư mục tự động.
+Dấu sao (*): Khớp với một chuỗi ký tự bất kỳ (độ dài >= 0).
+```Bash
+ls *.c
+```
+5.Dấu hỏi chấm (?): Khớp với đúng một ký tự bất kỳ.
+```Bash
+ls test?.txt
+```
