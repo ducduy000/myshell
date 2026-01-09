@@ -21,7 +21,7 @@ Cho phép người dùng nhập lệnh và shell sẽ:
 ### Compile:
 
 ```bash
-make 
+make jhhkfhkdjfds
 ```
 
 ### Run:
